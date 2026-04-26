@@ -83,7 +83,7 @@ local redzlib = {
     	    ["home"] = "rbxassetid://10723407389",
     	    ["truck"] = "rbxassetid://10747364031",
 			["headphones"] = "rbxassetid://10723406165",
-			["Drip"] = "rbxassetid://72495850369898",
+			["LEOMENU"] = "rbxassetid://72495850369898",
 			["flame"] = "rbxassetid://10723376114",
 			["shirt"] = "rbxassetid://10734952036",
 			["settings"] = "rbxassetid://10734950309",
@@ -775,8 +775,8 @@ function redzlib:Notify(Configs)
 end
 
 function redzlib:MakeWindow(Configs)
-	local WTitle = Configs[1] or Configs.Name or Configs.Title or "redz Library V5"
-	local WMiniText = Configs[2] or Configs.SubTitle or "by : redz9999"
+	local WTitle = Configs[1] or Configs.Name or Configs.Title or "Leo menu Libary"
+	local WMiniText = Configs[2] or Configs.SubTitle or "by : LEO MODZ"
 	
 	Settings.ScriptFile = Configs[3] or Configs.SaveFolder or false
 	
@@ -1132,7 +1132,7 @@ end
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
 			Title = "Close",
-			Text = "Deseja realmente fechar o Drip Client? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
+			Text = "Deseja realmente fechar o LEO MENU HUB? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
 			Options = {
 				{"Confirm", function()
 					ScreenGui:Destroy()

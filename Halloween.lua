@@ -784,8 +784,8 @@ function redzlib:Notify(Configs)
 end
 
 function redzlib:MakeWindow(Configs)
-	local WTitle = Configs[1] or Configs.Name or Configs.Title or "redz Library V5"
-	local WMiniText = Configs[2] or Configs.SubTitle or "by : redz9999"
+	local WTitle = Configs[1] or Configs.Name or Configs.Title or "Leo Menu Libary"
+	local WMiniText = Configs[2] or Configs.SubTitle or "by : Leo Modz"
 	
 	Settings.ScriptFile = Configs[3] or Configs.SaveFolder or false
 	
